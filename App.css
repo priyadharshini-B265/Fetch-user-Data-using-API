@@ -1,0 +1,55 @@
+body {
+  background-image: linear-gradient(#A63EC5,#CE49BF,#F190B7);
+  font-family: 'Luxurious Roman', cursive;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  
+}
+.navbar {
+  background-color: #712B75;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+  border-radius: 100px;
+}
+
+.btn {
+  background-color:#DB6B97;
+  padding: 2px 30px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Luxurious Roman', cursive;
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+.card {
+  max-width: 1200px;
+  margin: 10 auto;
+  padding: 140px 50px;
+  display: flex;
+  gap: 3.5rem;
+  color: white;
+  margin-left: 40px;
+  
+}
+
+.info {
+  padding: 2px;
+}
+
+li {
+  list-style: none;
+}
